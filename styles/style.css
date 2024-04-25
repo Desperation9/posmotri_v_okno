@@ -10,8 +10,7 @@ html {
 
 .page {
   display: grid;
-  justify-content: center;
-  align-items: end;
+  place-items: end center;
   margin: auto;
   overflow: hidden;
   color: #fff;
@@ -45,12 +44,11 @@ ol {
 .content {
   display: grid;
   grid-template-columns: 711px 399px;
-  justify-content: center;
-  align-items: end;
+  place-items: end center;
   gap: 30px;
   width: 1140px;
   height: 534px;
-  margin: 0 30px;
+  margin: 133px 30px;
 }
 
 /* RESULT */
