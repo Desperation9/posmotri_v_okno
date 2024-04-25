@@ -11,7 +11,7 @@ html {
 .page {
   display: grid;
   justify-content: center;
-  align-items: flex-end;
+  align-items: end;
   margin: auto;
   overflow: hidden;
   color: #fff;
@@ -46,11 +46,11 @@ ol {
   display: grid;
   grid-template-columns: 711px 399px;
   justify-content: center;
-  align-items: flex-end;
+  align-items: end;
   gap: 30px;
   width: 1140px;
   height: 534px;
-  margin: 133px 30px;
+  margin: 0 30px;
 }
 
 /* RESULT */
@@ -68,7 +68,7 @@ ol {
 
 .result__video {
   width: 100%;
-  min-height: 386px;
+  max-height: 386px;
 }
 
 /* SEARCH */
