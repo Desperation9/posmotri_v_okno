@@ -173,8 +173,8 @@ ol {
   font-weight: 700;
   font-size: 18px;
   line-height: 21.6px;
-  text-align: center;
   background-color: transparent;
+  text-align: center;
 }
 
 .button:focus {
