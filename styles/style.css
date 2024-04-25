@@ -10,6 +10,8 @@ html {
 
 .page {
   display: grid;
+  justify-content: center;
+  align-items: flex-end;
   margin: auto;
   overflow: hidden;
   color: #fff;
@@ -174,8 +176,8 @@ ol {
   font-weight: 700;
   font-size: 18px;
   line-height: 21.6px;
-  background-color: transparent;
   text-align: center;
+  background-color: transparent;
 }
 
 .button:focus {
